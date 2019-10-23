@@ -15,9 +15,10 @@ export default {
   radii: [4, 8, 16],
   colors: {
     text: "#222",
-    background: "#EDEDED",
+    background: "#FFF",
     border: "#333",
     primary: "#eb7b15",
     secondary: "#e4ab15",
+    card: "#fbf9f8",
   },
 }
