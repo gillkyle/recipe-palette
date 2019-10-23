@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 
 import Title from "../components/title"
 import Layout from "../components/layout"
-import Card from "../components/card"
+import { GenericCard } from "../components/cards"
 
 export default ({ data }) => (
   <Layout>
@@ -29,11 +29,11 @@ export default ({ data }) => (
         mb: `4`,
       }}
     >
-      <Card name="Appetizers" />
-      <Card name="Bread" />
-      <Card name="Desserts" />
-      <Card name="Breakfast" />
-      <Card name="Pasta" />
+      <GenericCard name="Appetizers" />
+      <GenericCard name="Bread" />
+      <GenericCard name="Desserts" />
+      <GenericCard name="Breakfast" />
+      <GenericCard name="Pasta" />
     </div>
   </Layout>
 )

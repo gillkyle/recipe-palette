@@ -3,7 +3,7 @@ import { jsx } from "theme-ui"
 
 import Title from "../components/title"
 import Layout from "../components/layout"
-import RecipeCard from "../components/recipe-card"
+import { NewCard, RecipeCard } from "../components/cards"
 
 export default ({ data }) => (
   <Layout>
@@ -12,13 +12,14 @@ export default ({ data }) => (
       <div
         sx={{
           display: `grid`,
-          gridTemplateColumns: `repeat(auto-fit, minmax(175px, 1fr))`,
+          gridTemplateColumns: `repeat(auto-fit, minmax(240px, 1fr))`,
           gridAutoFlow: `row`,
           gridGap: `3`,
           mb: `4`,
         }}
       >
-        <RecipeCard name="Appetizers" />
+        <NewCard />
+        <RecipeCard name="Hammy's Delightful Chocolate Chip Cookies" />
         <RecipeCard name="Bread" />
         <RecipeCard name="Desserts" />
         <RecipeCard name="Breakfast" />
