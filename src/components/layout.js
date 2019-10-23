@@ -13,7 +13,6 @@ const Layout = ({ children }) => (
   >
     <header
       sx={{
-        padding: 4,
         borderBottom: `1px solid`,
         borderBottomColor: `border`,
       }}
@@ -43,7 +42,6 @@ const Layout = ({ children }) => (
     </main>
     <footer
       sx={{
-        p: 4,
         borderTop: `1px solid`,
         borderTopColor: `border`,
       }}

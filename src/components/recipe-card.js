@@ -1,14 +1,13 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 
-const Card = ({ name = `Recipe Name` }) => (
+const RecipeCard = ({ name = `Recipe Name`, heart }) => (
   <div
     sx={{
-      py: `4`,
-      px: `4`,
+      minHeight: 150,
+      py: `2`,
+      px: `2`,
       borderRadius: `1`,
-      textAlign: `center`,
-      border: `border`,
       backgroundColor: `background`,
       transition: `0.3s all`,
       boxShadow: `0px 1.5px 3px 0px rgba(225, 227, 229, 0.6)`,
@@ -17,8 +16,9 @@ const Card = ({ name = `Recipe Name` }) => (
       },
     }}
   >
+    <div sx={{ minHeight: 100, borderRadius: `1`, backgroundColor: `#DDD` }} />
     {name}
   </div>
 )
 
-export default Card
+export default RecipeCard

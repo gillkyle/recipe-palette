@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 
+import Title from "../components/title"
 import Layout from "../components/layout"
 import Card from "../components/card"
 
@@ -12,13 +13,7 @@ export default ({ data }) => (
         mt: `6`,
       }}
     >
-      <h1
-        sx={{
-          fontSize: `4`,
-        }}
-      >
-        The best way to keep track of recipes
-      </h1>
+      <Title>The best way to keep track of recipes</Title>
       <input
         sx={{ px: `3`, py: `2`, mb: `6`, fontSize: `3`, minWidth: `75%` }}
         placeholder="Find a recipe..."

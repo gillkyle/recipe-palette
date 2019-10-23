@@ -12,13 +12,12 @@ export default {
     heading: 700,
     bold: 700,
   },
-  radii: [4, 8, 16],
+  radii: [2, 4, 8],
   colors: {
     text: "#222",
     background: "#FFF",
     border: "#333",
     primary: "#eb7b15",
     secondary: "#e4ab15",
-    card: "#fbf9f8",
   },
 }
